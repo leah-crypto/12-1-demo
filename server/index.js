@@ -9,7 +9,7 @@ app.use(cors())
 const {
     getMessages,
     createMessage
-} = require('./controllers/messageController')
+} = require("./controllers/messageController")
 
 app.post(`/api/messages`, createMessage)
 
